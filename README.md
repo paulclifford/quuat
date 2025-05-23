@@ -2,6 +2,8 @@
 
 Cloned from https://github.com/artefactual-labs/arThemeB5Plugin.git (May, 2025)
 
+Following steps as seen at: https://www.accesstomemory.org/en/docs/2.9/admin-manual/customization/theming/
+
 Theme developed by Paul Cliford (clifford@queensu.ca)
 
 Orginal README follows:

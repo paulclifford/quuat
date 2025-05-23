@@ -19,6 +19,8 @@ Extend:
 
 */
 
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Volkhov&display=swap");
+
 // QUL colours from 2024 website theme
 $black: #212121;
 $blue-dark: #001c41;
@@ -35,3 +37,32 @@ $red: #940c28;
 $yellow-dark: #d8a30d;
 $yellow-light: #fcd569;
 $yellow: #fabd0f;
+$white: #fff;
+
+body {
+  font-family: "Open Sans", sans-serif; // this is the default font anyways?
+  color: $black;
+}
+
+a {
+  color: $blue-light;
+}
+
+.text-primary {
+  color: $blue;
+}
+
+#top-bar {
+  background-color: $blue-dark;
+  color: $white;
+}
+
+.atom-btn-secondary {
+  background-color: $blue;
+  border-color: $blue;
+  color: $white;
+}
+
+.atom-btn-white:hover i {
+  color: $blue;
+}
