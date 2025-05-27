@@ -13,6 +13,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  *
+ * 
  * You should have received a copy of the GNU General Public License
  * along with Access to Memory (AtoM).  If not, see <http://www.gnu.org/licenses/>.
  */
@@ -20,7 +21,7 @@
 require_once sfConfig::get('sf_plugins_dir')
     .'/arDominionB5Plugin/config/arDominionB5PluginConfiguration.class.php';
 
-class arQuuatPluiginConfiguration extends arDominionB5PluginConfiguration
+class arQuuatPluginConfiguration extends arDominionB5PluginConfiguration
 {
     public static $summary = 'B5 theme plugin skeleton, extension of arDominionB5Plugin without modifications.';
     public static $version = '0.0.1';
